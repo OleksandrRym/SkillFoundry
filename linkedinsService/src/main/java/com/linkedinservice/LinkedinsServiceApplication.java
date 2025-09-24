@@ -1,13 +1,13 @@
-package com.gitservice.GitService;
+package com.linkedinservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GitServiceApplication {
+public class LinkedinsServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GitServiceApplication.class, args);
+		SpringApplication.run(LinkedinsServiceApplication.class, args);
 	}
 
 }

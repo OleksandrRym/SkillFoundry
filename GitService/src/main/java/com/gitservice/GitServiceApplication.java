@@ -1,13 +1,13 @@
-package com.djinniservice.DjinniService;
+package com.gitservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DjinniServiceApplication {
+public class GitServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DjinniServiceApplication.class, args);
+		SpringApplication.run(GitServiceApplication.class, args);
 	}
 
 }

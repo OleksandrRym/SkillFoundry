@@ -1,0 +1,28 @@
+
+services:
+  linkedins-service:
+    build:
+      context: ./linkedinsService
+      dockerfile: Dockerfile
+    container_name: linkedins-service
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
+
+  git-service:
+    build:
+      context: ./GitService
+      dockerfile: Dockerfile
+    container_name: git-service
+    ports:
+      - "8082:8080"
+    restart: unless-stopped
+
+  djinni-service:
+    build:
+      context: ./DjinniService
+      dockerfile: Dockerfile
+    container_name: djinni-service
+    ports:
+      - "8083:8080"
+    restart: unless-stopped

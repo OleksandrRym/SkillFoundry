@@ -1,13 +1,13 @@
-package com.linkedinservice.linkedinsService;
+package com.djinniservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LinkedinsServiceApplication {
+public class DjinniServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LinkedinsServiceApplication.class, args);
+		SpringApplication.run(DjinniServiceApplication.class, args);
 	}
 
 }
